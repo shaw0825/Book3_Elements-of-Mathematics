@@ -14,7 +14,8 @@ import numpy as np
 a_row = np.array([[1, 2, 3]])
 
 b = a_row.T
-
+print(b)
 b_col = np.array([[1],[2],[3]])
 
 a = b_col.T
+print(a)
